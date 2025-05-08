@@ -25,11 +25,6 @@ const nextConfig = {
         source: '/storybook/:path*',
         destination: '/storybook/:path*',
       },
-      {
-        source: '/',
-        destination: 'https://baruch-design.netlify.app/',
-        permanent: true,
-      },
     ];
   },
 };
