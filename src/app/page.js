@@ -11,7 +11,10 @@ import BaruchLogo from "@/assets/logos/BaruchLogo";
 import Link from "next/link";
 import Program from "@/sections/program";
 import Slider from "@/sections/statsSlider";
+import { redirect } from 'next/navigation'
+
 export default function Home() {
+  redirect('https://baruch-design.netlify.app/')
 
   return (
     <div className="bg-primary-indigo text-primary-white">
